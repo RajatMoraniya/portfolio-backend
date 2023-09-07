@@ -12,6 +12,6 @@ server.use("/*",(req,res)=>{
   res.sendFile(path.resolve(__dirname ,"build","./index.html"))
 })
 
-server.listen(3000, () => {
+server.listen(8001, () => {
   console.log("server started at 3000");
 });

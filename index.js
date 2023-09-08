@@ -13,5 +13,5 @@ server.use("/*",(req,res)=>{
 })
 
 server.listen(8001, () => {
-  console.log("server started at 3000");
+  console.log("server started at 8001");
 });
